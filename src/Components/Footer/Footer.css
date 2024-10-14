@@ -1,0 +1,161 @@
+.footerContainer{
+    background-color: #1d1a1a;
+    height: 750px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    overflow-x: hidden;
+    color: #FFFFFF;
+    font-family: Simplon Norm;
+}
+.footerLine{
+    width: 1148px;   
+    border-top: 1px solid #E5E5E5;  
+    margin: 20px 0; 
+    position:absolute;
+    top: 317px;
+    left: 128px;
+}
+.footerUp{
+   display: flex;
+   position: relative;
+   left: 128px;
+   top: 79px;
+}
+.subscribeSection h3{  
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.subscribeSection p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+.subscribeSection input{
+    width: 314px;
+    height: 47px;
+    background: #FFFFFF;
+    border: none;
+}
+.subscribeSection button{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    color: #FFFFFF;
+    text-align: center;
+    width:184px;
+    height:48px;
+    border-radius: 5px;
+    border: 1.14px;
+    background: #000000;
+    border: 1.14px solid #FFFFFF;
+    opacity: 30%;
+    cursor: pointer;
+}
+.subscribeForm{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.contactSection {
+    position: relative;
+    left: 120px;
+}
+.contactSection h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.currencies img{
+    border: 1px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+}
+.contactSection p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+}
+/*footer about us ,payment css*/
+.footerDown{
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+}
+.subFooter{
+    display: flex;
+    position: relative;
+    gap: 120px;
+    left: 128px;
+}
+.aboutus h2{
+    font-size: 24.71px;
+    font-weight: 700;
+    line-height: 29.66px;
+}
+.aboutus p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.quicklinks h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.quicklinks p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.payment{
+    position: relative;
+    left: 375px;
+}
+.payment h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+.payCards{
+    display: flex;
+    gap: 5px;    
+}
+.payCards img{
+    background-color: #FFFFFF;
+    border: 1px solid #FFF2F5;
+    width: 56px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+@media (max-width: 1024px) {
+    .footerUp, .footerDown {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .subFooter {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .subscribeSection input, .subscribeSection button {
+      width: 100%;
+    }
+  }
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .subscribeForm {
+      flex-direction: column;
+    }
+    .payCards img {
+      width: 40px;
+      height: 25px;
+    }
+  }

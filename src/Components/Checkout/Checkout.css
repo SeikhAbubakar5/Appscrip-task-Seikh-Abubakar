@@ -1,0 +1,115 @@
+
+.checkoutContainer{
+    position: absolute;
+    top: 360px;
+    
+}
+.filterBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+}
+.filterCount{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 96px;
+}
+.filterCount p{
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+.filterCount h3{
+    width: 130px;
+    height: 40px;
+    margin-top: 27px;
+    text-align: center;
+    color:#888792;
+}
+.optn{
+    position: absolute;
+    right: 96px;
+}
+.optn select{
+    width: 148px;
+    height: 40px;
+    border: none;
+}
+.linesCheckout{
+    width: 100%;   
+    border-top: 1px solid #E5E5E5;  
+    margin: 20px 0; 
+    position: absolute;
+    top: 20px;
+}
+.mainContainer{
+   position: relative;
+   margin-top: 50px;
+   width: 100%;
+}
+.filters{
+    width: 20%;
+    float: left;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    height: 462px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    }
+.cardImage{
+    width: 300px;
+    height: 350px;
+}
+.description{
+    width: 300px;
+    height: fit-content;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+}
+@media (max-width: 1024px) {
+    .filterBar {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  
+    .cards {
+      justify-content: center;
+      gap: 15px;
+    }
+    .card {
+      width: 90%;
+    }
+  }
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .filterBar {
+      gap: 15px;
+    }
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 100%;
+    }
+  }

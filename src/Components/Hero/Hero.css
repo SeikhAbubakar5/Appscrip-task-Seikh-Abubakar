@@ -1,0 +1,54 @@
+.heroContent{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+}
+.hero1{
+    font-family: Simplon Norm;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero2{
+    width: 721px;
+    height: 80px;
+    font-family: Simplon Norm;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+
+}
+.lineHero{
+    width: 100%;   
+    border-top: 1px solid #E5E5E5;  
+    margin: 20px 0; 
+}
+@media (max-width: 1024px) {
+    .hero1 {
+      font-size: 48px;
+    }
+    .hero2 {
+      width: 90%;
+      font-size: 18px;
+    }
+  }
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .hero1 {
+      font-size: 36px;
+    }
+    .hero2 {
+      font-size: 16px;
+    }
+  }
